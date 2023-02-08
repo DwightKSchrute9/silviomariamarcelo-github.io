@@ -1,0 +1,160 @@
+.description {
+    display: inline-block;
+    opacity: 0;
+    animation: showDescription 0.3s forwards;
+
+  }
+  @keyframes showDescription {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #descriptionContainer {
+    padding: 20px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  body {
+   /*background-image: url("https://media3.giphy.com/media/gSzVFkOj0Te7gojAhM/giphy.gif?cid=ecf05e478f9735satk41wvldfdcbsu1evnzubzexnhtief39&rid=giphy.gif&ct=g.gif");*/
+    background-size:50%;
+    font-family: 'Indie Flower';
+    background-color: rgba(228, 221, 207, 0.87);
+    color: rgb(11, 39, 31);
+    font-size: larger;
+    font-weight: 800;
+  }
+  .description {
+    display: inline-block;
+    opacity: 0;
+    animation: showDescription 0.3s forwards;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @keyframes showDescription {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media (max-width: 500px) {
+    .description {
+      font-size: 1.5em;
+    }
+  }
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px;
+    animation: showTable 1s ease-in-out;
+  }
+  
+  tr {
+    opacity: 0;
+    animation: showRow 0.5s ease-in-out forwards;
+  }
+  
+  tr:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  tr:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  tr:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  tr:nth-child(4) {
+    animation-delay: 2s;
+  }
+  tr:nth-child(5) {
+    animation-delay: 2.5s;
+  }
+  
+  @keyframes showTable {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes showRow {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  th{
+    padding: 13px;
+  }
+  
+  td {
+    border: 3px solid rgb(192, 116, 116);
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .section-title {
+    background-color: lightblue;
+  }
+  
+  .section-description {
+    background-color: lightgray;
+  }
+  
+  .section-check {
+    background-color: lightgreen;
+  }
+  
+  .scroll {
+    height: 200px;
+    overflow: scroll;
+  }
+  
+  .btn-windows95 {
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  img {
+    border-radius: 30%;
+  }

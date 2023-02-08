@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://media4.giphy.com/media/VHMuWhPNHPrXgNvEkA/giphy.gif?cid=ecf05e47fu2h4xiwigx9wndfpq13oxmrto47atsbakpuwtgh&rid=giphy.gif&ct=g.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+   
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 20px;
+  }
+  
+  a {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(14, 12, 12);
+    margin: 0 20px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    a {
+      margin: 10px 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  /*prompt contatti*/
+ 
+  #prompt {
+    display: none;
+    position: absolute;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1em;
+    }
+
+    #prompt a {
+      color: blue;
+      text-decoration: underline;
+      }
+  
+  
