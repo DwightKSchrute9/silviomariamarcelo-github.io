@@ -1,4 +1,4 @@
-const description = "Yo, This is Silvio Maria Marcelo. I'm a accountant at the Dunder Mufflin Paper Company in Scranton, PA, 18506, United States.    False.  Facts:    I'm a Junior Web Developer looking for new frontend and backend web solutions. For more informations, leave your email in contacts or write to me.  God bless you";
+const description = "Yo, This is Silvio Maria Marcelo. I'm an accountant at the Dunder Mufflin Paper Company in Scranton, PA, 18506, United States.    False.  Facts:    I'm a Junior Web Developer looking for new frontend and backend web solutions. For more informations, leave your email in contacts or write to me.  God bless you";
 const descriptionArray = description.split("");
 let i = 0;
 const descriptionContainer = document.getElementById("descriptionContainer");
